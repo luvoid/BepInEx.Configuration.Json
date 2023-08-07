@@ -1,0 +1,1 @@
+# LuVoid.BepInEx.Configuration.Json

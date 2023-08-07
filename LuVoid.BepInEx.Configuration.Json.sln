@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuVoid.BepInEx.Configuration.Json", "LuVoid.BepInEx.Configuration.Json\LuVoid.BepInEx.Configuration.Json.csproj", "{FF4B6D69-D118-4506-B65E-DB55555F7F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuVoid.BepInEx.Configuration.Json.Tests", "LuVoid.BepInEx.Configuration.Json.Tests\LuVoid.BepInEx.Configuration.Json.Tests.csproj", "{4ECA73ED-A78E-4571-BB66-89F4E19870A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF4B6D69-D118-4506-B65E-DB55555F7F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4B6D69-D118-4506-B65E-DB55555F7F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4B6D69-D118-4506-B65E-DB55555F7F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4B6D69-D118-4506-B65E-DB55555F7F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECA73ED-A78E-4571-BB66-89F4E19870A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECA73ED-A78E-4571-BB66-89F4E19870A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECA73ED-A78E-4571-BB66-89F4E19870A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECA73ED-A78E-4571-BB66-89F4E19870A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7810AD3B-6B8A-4E67-8205-FDAC7AF0D67F}
+	EndGlobalSection
+EndGlobal
