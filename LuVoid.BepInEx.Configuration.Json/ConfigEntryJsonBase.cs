@@ -3,12 +3,13 @@ using BepInEx.Logging;
 using Newtonsoft.Json;
 using System;
 using System.IO;
+using BepInExLogger = BepInEx.Logging.Logger;
 
 namespace LuVoid.BepInEx.Configuration.Json
 {
 	public abstract class ConfigEntryJsonBase
 	{
-		internal static ManualLogSource Logger = BepInEx.Logging.Logger.CreateLogSource("BepInEx.Configuration.Json");
+		internal static ManualLogSource Logger = BepInExLogger.CreateLogSource("BepInEx.Configuration.Json");
 
 		public ConfigFile ConfigFile { get; private set; }
 

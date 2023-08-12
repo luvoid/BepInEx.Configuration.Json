@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$-alpha</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/luvoid/LuVoid.BepInEx.Configuration.Json</projectUrl>
+    <description>$description$</description>
+    <releaseNotes>Initial upload</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>bepinex json</tags>
+  </metadata>
+  <files>
+    <file src="LICENSE"/>
+  </files>
+</package>

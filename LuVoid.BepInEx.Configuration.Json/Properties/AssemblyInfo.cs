@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("LuVoid.BepInEx.Configuration.Json")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Provides extensions for easily binding JSON serializable structs to a BepInEx config file.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("https://github.com/luvoid/LuVoid.BepInEx.Configuration.Json")]
 [assembly: AssemblyProduct("LuVoid.BepInEx.Configuration.Json")]
 [assembly: AssemblyCopyright("Copyright © luvoid 2023")]
 [assembly: AssemblyTrademark("")]

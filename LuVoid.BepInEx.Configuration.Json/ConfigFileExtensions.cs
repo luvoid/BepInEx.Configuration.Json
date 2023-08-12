@@ -1,5 +1,5 @@
 ﻿using BepInEx.Configuration;
-using LuVoidEx.Collections.Weak;
+using LuVoid.Collections.Weak;
 using Newtonsoft.Json;
 
 namespace LuVoid.BepInEx.Configuration.Json
