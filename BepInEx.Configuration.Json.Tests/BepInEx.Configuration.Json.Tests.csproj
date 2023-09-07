@@ -47,9 +47,9 @@
     <Compile Include="UnitTestLogListener.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LuVoid.BepInEx.Configuration.Json\LuVoid.BepInEx.Configuration.Json.csproj">
+    <ProjectReference Include="..\BepInEx.Configuration.Json\BepInEx.Configuration.Json.csproj">
       <Project>{ff4b6d69-d118-4506-b65e-db55555f7f13}</Project>
-      <Name>LuVoid.BepInEx.Configuration.Json</Name>
+      <Name>BepInEx.Configuration.Json</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

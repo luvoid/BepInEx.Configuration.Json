@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuVoid.BepInEx.Configuration.Json", "LuVoid.BepInEx.Configuration.Json\LuVoid.BepInEx.Configuration.Json.csproj", "{FF4B6D69-D118-4506-B65E-DB55555F7F13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BepInEx.Configuration.Json", "BepInEx.Configuration.Json\BepInEx.Configuration.Json.csproj", "{FF4B6D69-D118-4506-B65E-DB55555F7F13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuVoid.BepInEx.Configuration.Json.Tests", "LuVoid.BepInEx.Configuration.Json.Tests\LuVoid.BepInEx.Configuration.Json.Tests.csproj", "{4ECA73ED-A78E-4571-BB66-89F4E19870A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BepInEx.Configuration.Json.Tests", "BepInEx.Configuration.Json.Tests\BepInEx.Configuration.Json.Tests.csproj", "{4ECA73ED-A78E-4571-BB66-89F4E19870A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFFF2295-F06B-483C-9D9D-93D407EF20FE}"
 	ProjectSection(SolutionItems) = preProject

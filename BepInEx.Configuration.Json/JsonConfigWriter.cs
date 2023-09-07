@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace LuVoid.BepInEx.Configuration.Json
+namespace BepInEx.Configuration.Json
 {
 	/// <summary>
 	/// A JsonWriter that instead of writing JSON will invoke various callbacks.

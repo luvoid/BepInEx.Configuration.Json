@@ -2,7 +2,7 @@
 using LuVoid.Collections.Weak;
 using Newtonsoft.Json;
 
-namespace LuVoid.BepInEx.Configuration.Json
+namespace BepInEx.Configuration.Json
 {
 	public static class ConfigFileExtensions
 	{

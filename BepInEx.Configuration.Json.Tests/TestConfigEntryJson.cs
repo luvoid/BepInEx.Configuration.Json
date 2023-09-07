@@ -2,12 +2,11 @@
 using BepInEx.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using LuVoid.BepInEx.Logging;
 
 
 [assembly: ClassCleanupExecution(ClassCleanupBehavior.EndOfAssembly)]
 
-namespace LuVoid.BepInEx.Configuration.Json.Tests
+namespace BepInEx.Configuration.Json.Tests
 {
 	[TestClass]
 	public class TestConfigEntryJson
@@ -54,7 +53,7 @@ namespace LuVoid.BepInEx.Configuration.Json.Tests
 			Assert.AreEqual(ExampleEnum.Value1, entry.Value.EnumField  );
 
 			var value = entry.Value;
-			value.IntField = 2;
+			value.IntField = 1;
 			entry.Value = value;
 		}
 

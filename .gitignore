@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+*.key
+/LuVoid.BepInEx.Configuration.Json/publish.bat
+BepInEx.Configuration.Json/publish.bat
+publish.bat

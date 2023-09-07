@@ -5,7 +5,7 @@ using System;
 using System.IO;
 using BepInExLogger = BepInEx.Logging.Logger;
 
-namespace LuVoid.BepInEx.Configuration.Json
+namespace BepInEx.Configuration.Json
 {
 	public abstract class ConfigEntryJsonBase
 	{

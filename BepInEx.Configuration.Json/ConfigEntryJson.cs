@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace LuVoid.BepInEx.Configuration.Json
+namespace BepInEx.Configuration.Json
 {
 	public sealed class ConfigEntryJson<T> : ConfigEntryJsonBase
 		where T : struct

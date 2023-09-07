@@ -3,7 +3,7 @@ using System;
 using UnitTestingLogger = Microsoft.VisualStudio.TestTools.UnitTesting.Logging.Logger;
 using BepInExLogger = BepInEx.Logging.Logger;
 
-namespace LuVoid.BepInEx.Logging
+namespace BepInEx.Logging
 {
 	public class UnitTestLogListener : ILogListener
 	{

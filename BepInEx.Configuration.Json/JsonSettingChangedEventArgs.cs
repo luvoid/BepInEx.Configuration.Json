@@ -1,7 +1,7 @@
 ﻿using BepInEx.Configuration;
 using System;
 
-namespace LuVoid.BepInEx.Configuration.Json
+namespace BepInEx.Configuration.Json
 {
 	public sealed class JsonSettingChangedEventArgs : EventArgs
 	{

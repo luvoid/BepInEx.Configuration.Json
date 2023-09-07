@@ -30,7 +30,7 @@ namespace LuVoid.Collections.Weak
 
 		public void Add(TKey key, TValue value)
 		{
-			base.Add(new WeakReference<TKey>(key), value);
+			Add(new WeakReference<TKey>(key), value);
 		}
 
 		//void ICollection<KeyValuePair<TKey, TValue>>.Add(KeyValuePair<TKey, TValue> item)
@@ -53,7 +53,7 @@ namespace LuVoid.Collections.Weak
 
 		public bool Remove(TKey key)
 		{
-			return this.Remove(new WeakReference<TKey>(key));
+			return Remove(new WeakReference<TKey>(key));
 		}
 
 		//bool ICollection<KeyValuePair<TKey, TValue>>.Remove(KeyValuePair<TKey, TValue> item)
@@ -66,7 +66,7 @@ namespace LuVoid.Collections.Weak
 
 		public bool TryGetValue(TKey key, out TValue value)
 		{
-			return this.TryGetValue(new WeakReference<TKey>(key), out value);
+			return TryGetValue(new WeakReference<TKey>(key), out value);
 		}
 	}
 }
